@@ -4,6 +4,10 @@ class CalculatorsController < ApplicationController
   end
   def add
     @answer = params[:number_one].to_i + params[:number_two].to_i
-    render :add
+    render :answer
   end
+
+  def subtract
+  end
+
 end
